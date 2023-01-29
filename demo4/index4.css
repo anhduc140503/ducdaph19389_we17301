@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+
+    width: 1400px;
+
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+
+position: relative;
+}
+.logo{
+    width: 100%;
+    height: 100px;
+    background-color: #350A21;
+text-align: center;
+    color: #B85797;
+    font-weight: bold;
+    font-size: larger;
+    font-family: tahoma;
+}
+.logo img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.menu{
+    width: 100%;
+    position: relative;
+    height: 50px;
+    background-color:#B85797;
+}
+nav ul {
+    position: absolute;
+   margin-left: 20px;
+ 
+}
+nav ul li {
+    list-style-type: none;
+    float:left;
+padding: 0 20px;
+   
+    
+}
+ nav ul li a{
+    text-decoration: none;
+   
+    color: azure;
+    font-family:tahoma;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
+
+
+}
+li:hover{
+    background-color: #5a1041;
+    
+
+}
+ nav ul li a:hover{
+  color: darkturquoise
+}
+form{
+    position: absolute;
+    top:15px;
+    right: 50px;
+}
+nav img{
+    width: 100%;
+    height: 400px;
+}
+article{
+    width: 100%;
+    height: 400px;
+}
+.sanpham{
+    float: left;
+    width: 25%;
+
+text-align: center;
+}
+.sanpham img{
+    width: 50%;
+}
+.sanpham h4{
+   
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: tahoma;
+
+}
+.sanpham p{
+    color: #B85797;
+font-weight: bold;
+margin-bottom: 20px;
+
+}
+.sanpham button{
+    background-color: black;
+    color: white;
+    font-size: large;
+    width: 80%;
+    height: 40px;
+}
+ h1{
+    margin-top: 32px;
+    margin-bottom: 20px;
+    margin-left: 16px;
+}
+hr{
+    margin-left: 16px;
+    margin-bottom: 20px;
+    
+
+}
+footer{
+    background-color:#350A21;
+    height: 50px;
+    color: aliceblue;
+text-align: center;
+}
+footer p{
+padding-top: 20px;
+font-size: larger;
+}
+img:hover{
+    transform: scale(1.5);
+}
+button:hover{
+    background-color: #5a1041;
+}
+
